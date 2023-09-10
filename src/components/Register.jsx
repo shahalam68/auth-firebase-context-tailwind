@@ -6,6 +6,7 @@ const Register = () => {
 
 
     const {user} = useContext(AuthContext);
+    
     const handleRegister = event =>{
         event.preventDefault();
         const form = event.target;
